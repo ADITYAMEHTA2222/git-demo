@@ -1,0 +1,30 @@
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+
+}
+/* inline  block to move block in single line horizonatl */
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+
+}
+
+.green{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    left: 400px;
+    bottom: 400px;
+}
+
+.main{
+    margin: 0;
+    
+}

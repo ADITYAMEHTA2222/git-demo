@@ -1,0 +1,29 @@
+.my{
+    background-color: aliceblue;
+    width: fit-content;
+    height: fit-content;
+    border-color: black;
+    border-width: 20px;
+    border-style: solid;
+    margin: 100px 100px 0 100px;
+    padding: 100px;
+}
+
+
+
+
+/* 
+body{
+    margin: 0;
+    background-color: aqua;
+} */
+
+
+h1{
+    margin: 0%;
+}
+
+
+p{
+    margin: 0px;
+}

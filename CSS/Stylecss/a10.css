@@ -1,0 +1,13 @@
+p{
+    background-color: red;
+    width:400px;
+   display: inline-block;
+    /* use inline-block with images to apply width */
+}
+span{
+    background-color: blue;
+    width: 400px;
+    display: block;
+    margin-top: 10px;
+    /* width:400px; can give width to block elements but not to inline elements */
+}

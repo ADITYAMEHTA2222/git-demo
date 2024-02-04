@@ -1,0 +1,30 @@
+
+body{
+   background-color: aqua;
+    text-align: center;
+}
+
+img.a1{
+    width: 100px;
+    height: auto;
+}
+
+p, h2{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.imagesset{
+    width: 700px;
+    position: relative;
+}
+
+.langing{
+    width: 400px;
+    height: auto;
+    position: relative;
+}
+.bubbleimg{
+    width: 100%;
+    height: auto;
+}

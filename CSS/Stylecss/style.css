@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(251, 240, 255);
+    /* font-size: 300px; */
+}
+img {
+    width: 100px; 
+    height:auto;
+    border: 5px solid black;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+:root{
+     /*applies to all text,including body , footer. */
+    /* font-size: 1.2em; gives relative value and support size changing feayure of setting butget multiply when used with h tag and body type both */
+    /* to overcome this , we use rem which follow only root value */
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+   
+    font-size: 40px;
+    color: blue;
+    
+}
+.main_content{
+    min-height: 500px;
+    max-width: 600px;
+    margin: auto;
+
+}
+/* span{
+    color: brown;
+} */
+.intro h2 span{
+    color: brown;
+}
+span{
+    color: rgb(255, 205, 243);
+}
+.intro ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: fit-content;
+}
+.intro li{
+    float: left;
+    margin-right: 10px;
+    background-color: blue;
+    border-radius: 25px;
+}
+.intro li a {
+    display: block;
+    color: rgb(255, 254, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.intro li a:hover {
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+}
+.intro li:last-child{
+    background-color:green;
+}
+.skill li a{
+    color: black;
+}
+
+.shift{
+    float: left;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .voilet{
+        background-color: violet;
+    }
+    .Red{
+        background-color: red;
+    }
+
+    .Blue{
+        background-color: blue;
+        order: 50;
+    }
+
+    .green{
+        background-color: green;
+        order: 70;
+    }
+
+    .yellow{
+        background-color: yellow;
+    }
+
+    .orange{
+        background-color: orange;
+    }
+
+    .pink{
+        background-color: pink;
+        /* html4 */
+        order: 150; 
+    }
+    body{
+        color: white;
+    }
+
+.Aditya{
+    border: 5px solid black;
+    display: flex;
+    height: 500px;
+    /* display: inline-flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between;*/
+    /* align-items: center; */
+    /* align-content works only flexwrap is set to wrap;
+    align-items: idealy used when flex wrap is set to no wrap; */
+    
+} 
+
+.Aditya > div{
+    flex-basis: 100px;
+    /* padding: 10px; */
+    height: 50px;
+
+}
+
+</style>
+<body>
+    <div class="Aditya">
+    <div class="voilet">voilet</div>
+    <div class="Red">Red</div>
+    <div class="Blue">Blue</div>
+    <div class="green">green</div>
+    <div class="yellow">yellow</div>
+    <div class="orange">orange</div>
+    <div class="pink">pink</div>
+    </div>
+</body>
+</html>
